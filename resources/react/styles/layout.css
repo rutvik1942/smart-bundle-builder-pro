@@ -1,0 +1,39 @@
+.sbb-layout{
+
+    display:flex;
+
+    min-height:100vh;
+
+    background:var(--sbb-bg);
+
+}
+
+.sbb-main{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+    min-width:0;
+
+}
+
+.sbb-content{
+
+    flex:1;
+
+    padding:32px 40px 56px;
+
+    overflow:auto;
+
+}
+
+@media (max-width:960px){
+
+    .sbb-content{
+        padding:24px;
+    }
+
+}

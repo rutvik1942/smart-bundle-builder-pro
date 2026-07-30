@@ -1,0 +1,43 @@
+:root{
+
+    /* Brand */
+    --sbb-primary:#4f46e5;
+    --sbb-primary-dark:#4338ca;
+    --sbb-primary-light:#eef2ff;
+    --sbb-primary-gradient:linear-gradient(135deg,#6366f1 0%,#4f46e5 100%);
+
+    /* Surface */
+    --sbb-bg:#f5f6fb;
+    --sbb-surface:#ffffff;
+    --sbb-border:#e7e8f1;
+    --sbb-border-light:#f0f1f7;
+
+    /* Text */
+    --sbb-text:#111827;
+    --sbb-text-muted:#6b7280;
+    --sbb-text-faint:#9ca3af;
+
+    /* Status */
+    --sbb-success:#16a34a;
+    --sbb-success-bg:#dcfce7;
+    --sbb-danger:#dc2626;
+    --sbb-danger-bg:#fee2e2;
+    --sbb-accent-bg:#eef2ff;
+    --sbb-accent-text:#4f46e5;
+
+    /* Shape */
+    --sbb-radius-sm:8px;
+    --sbb-radius-md:12px;
+    --sbb-radius-lg:16px;
+    --sbb-radius-pill:999px;
+
+    /* Shadow */
+    --sbb-shadow-sm:0 1px 2px rgba(17,24,39,0.04);
+    --sbb-shadow-md:0 4px 16px rgba(17,24,39,0.06);
+    --sbb-shadow-lg:0 12px 32px rgba(79,70,229,0.14);
+
+    /* Layout */
+    --sbb-sidebar-width:264px;
+    --sbb-header-height:72px;
+
+}

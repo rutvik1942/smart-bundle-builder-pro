@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,
+body,
+#sbb-app{
+    width:100%;
+    height:100%;
+}
+
+body{
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    background:var(--sbb-bg);
+    color:var(--sbb-text);
+    -webkit-font-smoothing:antialiased;
+}
+
+#sbb-app *{
+    box-sizing:border-box;
+}
+
+button{
+    cursor:pointer;
+    border:none;
+    background:none;
+    font-family:inherit;
+}
+
+input{
+    font-family:inherit;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul{
+    list-style:none;
+}
+
+svg{
+    display:block;
+}
+
+/* Scrollbar */
+#sbb-app ::-webkit-scrollbar{
+    width:8px;
+    height:8px;
+}
+
+#sbb-app ::-webkit-scrollbar-thumb{
+    background:#d6d8e4;
+    border-radius:99px;
+}

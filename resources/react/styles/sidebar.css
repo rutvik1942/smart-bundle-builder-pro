@@ -1,0 +1,197 @@
+.sbb-sidebar{
+
+    width:var(--sbb-sidebar-width);
+
+    flex-shrink:0;
+
+    background:var(--sbb-surface);
+
+    border-right:1px solid var(--sbb-border-light);
+
+    display:flex;
+
+    flex-direction:column;
+
+    padding:24px 16px 20px;
+
+    position:sticky;
+
+    top:0;
+
+    height:100vh;
+
+    overflow-y:auto;
+
+}
+
+/* Brand */
+
+.sbb-brand{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:4px 10px 28px;
+
+}
+
+.sbb-brand-mark{
+
+    width:38px;
+
+    height:38px;
+
+    flex-shrink:0;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    border-radius:10px;
+
+    background:var(--sbb-primary-gradient);
+
+    color:#fff;
+
+    font-weight:700;
+
+    font-size:17px;
+
+    box-shadow:var(--sbb-shadow-lg);
+
+}
+
+.sbb-brand-text{
+
+    display:flex;
+
+    flex-direction:column;
+
+    line-height:1.2;
+
+}
+
+.sbb-brand-title{
+
+    font-size:15px;
+
+    font-weight:700;
+
+    color:var(--sbb-primary);
+
+}
+
+.sbb-brand-plan{
+
+    font-size:11.5px;
+
+    color:var(--sbb-text-faint);
+
+    margin-top:2px;
+
+}
+
+/* Nav */
+
+.sbb-nav{
+
+    flex:1;
+
+}
+
+.sbb-nav-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:2px;
+
+}
+
+.sbb-nav-section-title{
+
+    font-size:11px;
+
+    font-weight:700;
+
+    letter-spacing:.06em;
+
+    color:var(--sbb-text-faint);
+
+    text-transform:uppercase;
+
+    padding:20px 12px 8px;
+
+}
+
+.sbb-nav-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:11px;
+
+    padding:10px 12px;
+
+    border-radius:var(--sbb-radius-sm);
+
+    color:var(--sbb-text-muted);
+
+    font-size:14px;
+
+    font-weight:500;
+
+    transition:background .15s ease, color .15s ease;
+
+}
+
+.sbb-nav-item:hover{
+
+    background:var(--sbb-border-light);
+
+    color:var(--sbb-text);
+
+}
+
+.sbb-nav-item.is-active{
+
+    background:var(--sbb-accent-bg);
+
+    color:var(--sbb-primary);
+
+    font-weight:600;
+
+}
+
+.sbb-nav-icon{
+
+    display:flex;
+
+    flex-shrink:0;
+
+}
+
+.sbb-nav-footer{
+
+    border-top:1px solid var(--sbb-border-light);
+
+    padding-top:12px;
+
+    margin-top:12px;
+
+}
+
+@media (max-width:960px){
+
+    .sbb-sidebar{
+        display:none;
+    }
+
+}
